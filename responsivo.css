@@ -1,0 +1,107 @@
+/* Ajustes para telas até 1024px */
+@media (max-width: 1024px) {
+    nav {
+        padding: 20px 10px;
+    }
+
+    img {
+        width: 90%;
+        max-width: 700px;
+    }
+
+    .comprar {
+        display: none; /* Já que você removeu a section, se ainda tiver imagem comprar solta, ela some */
+    }
+
+    button {
+        width: 130%;
+        max-width: 350px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* Ajustes para telas até 768px */
+@media (max-width: 768px) {
+    header {
+        font-size: 18px;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav {
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 600px;
+        margin: 20px 0;
+    }
+
+    button {
+        width: 90%;
+        max-width: 300px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px 0;
+    }
+
+    a {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+/* Ajustes para telas até 480px */
+@media (max-width: 480px) {
+    header {
+        font-size: 16px;
+    }
+
+    nav {
+        padding: 10px 10px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 250px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    footer a {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+}
